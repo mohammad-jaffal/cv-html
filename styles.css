@@ -4,13 +4,14 @@
     font-size: 25;
     color: green;
     margin-bottom: 1%;
+    margin-left: 10px;
 }
 
 .name {
     font-weight: bold;
     font-size: 35;
     text-align: center;
-    color: blue;
+    margin-top: 10px;
 }
 
 .bullets {
@@ -21,11 +22,38 @@
 
 .info {
     font-size: 16;
+    margin-left: 2%;
+    margin-right: 30%;
 
 }
 
 .separator {
-    border-style: dashed;
-    border-width: 1px;
+    border-style: dotted;
+    border-width: 5px;
+    border-color: white;
+    border-top-color: cornflowerblue;
+}
+
+.profile {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    padding-left: 10px;
+}
+
+.theBody {
+    margin-left: 10px;
+    border-style: groove;
+    border-width: 5px;
     border-color: cornflowerblue;
 }
+
+.eTable {
+    margin-left: 1%;
+    border-radius: 5px;
+    border-color: cornflowerblue;
+    border-width: 2px;
+    border-collapse: collapse;
+    
+}
+
