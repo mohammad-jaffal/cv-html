@@ -1,3 +1,31 @@
-.para {
-    background-color: aqua;
+.title {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25;
+    color: green;
+    margin-bottom: 1%;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 35;
+    text-align: center;
+    color: blue;
+}
+
+.bullets {
+    font-weight: bold;
+    font-size: 20;
+    color: rgb(56, 221, 56);
+}
+
+.info {
+    font-size: 16;
+
+}
+
+.separator {
+    border-style: dashed;
+    border-width: 1px;
+    border-color: cornflowerblue;
 }
