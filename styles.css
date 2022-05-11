@@ -1,7 +1,7 @@
 .title {
     font-weight: bold;
     font-style: italic;
-    font-size: 25;
+    font-size: 30;
     color: green;
     margin-bottom: 1%;
     margin-left: 10px;
@@ -9,15 +9,13 @@
 
 .name {
     font-weight: bold;
-    font-size: 35;
-    text-align: center;
-    margin-top: 10px;
+    font-size: 50;
 }
 
 .bullets {
     font-weight: bold;
     font-size: 20;
-    color: rgb(56, 221, 56);
+    color: green;
 }
 
 .info {
@@ -57,7 +55,9 @@
     width: 100%;
     height: fit-content;
     border-collapse: collapse;
-    background-image: linear-gradient(to right, green , rgb(189, 252, 176));
+    border-width: 2;
+    border-color: black;
+    background-image: linear-gradient(to bottom right, green , white);
   }
 
   body, html {
@@ -75,6 +75,13 @@
       margin-top: 3%;
   }
 
-  div {
-      margin-bottom: 10%;
-  }
+  .separator {
+    /* border-style: dashed;
+    border-width: 5px;
+    border-color: white;
+    border-top-color: green; */
+    color: green;
+    height: 5px;
+    background-color: green;
+}
+
